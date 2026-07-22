@@ -1,0 +1,66 @@
+.galerie {
+    display:grid;
+    grid-template-columns:repeat(4,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+   
+}
+.galerie img {
+     width:90%;
+    height:250px;
+    object-fit: cover;
+    border-radius:45px;
+    transition:.3s;
+    overflow: hidden;
+}
+.galerie img:hover {
+   transform: scale(1.3);
+}
+
+.resto-name {
+  text-align: center;
+  background: #42241B;
+  padding: 30px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #ccc;
+  color: white;
+  font-family: deco;
+  font-size: 60px;
+  margin-top: 0;
+}
+.heady {
+  display: flex;
+  justify-content: space-around;
+  background: #42241B;
+  padding: 20px;
+  font-family: deco;
+  font-size: 24px;
+  
+}
+@font-face {
+  src: url('Astonia_Demo.otf');
+  font-family: deco;
+}
+a {
+  color: #ccc;
+  font-size: 24px;
+  font-family: deco;
+}
+
+a:active {
+    color: black;
+}
+.no-me{
+    text-align: center;
+  margin: 50px auto 20px auto;
+  border-bottom: 2px solid #ccc;
+  width: 15%;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5px;
+
+    
+}
+body {
+    background: wheat;
+}
